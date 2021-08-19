@@ -1,0 +1,31 @@
+{
+  "name": "ui-kafka-tmall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nuxt",
+    "build": "npx nuxt build",
+    "start": "npx nuxt start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pail-supermasta/UI-kafka-tmall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pail-supermasta/UI-kafka-tmall/issues"
+  },
+  "homepage": "https://github.com/pail-supermasta/UI-kafka-tmall#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "kafkajs": "^1.15.0",
+    "net": "^1.0.2",
+    "nuxt": "^2.15.8",
+    "tls": "^0.0.1"
+  }
+}

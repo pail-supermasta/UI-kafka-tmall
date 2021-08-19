@@ -1,12 +1,15 @@
 <template>
     <div>
-        <ApplicationNavBar/>
-        <nuxt/>
+        <ApplicationNavBar />
+        <nuxt />
     </div>
 </template>
 
 <script>
-    export default {
-        name: "default"
-    }
+export default {
+    name: 'default',
+    mounted() {
+        window.App = this;
+    },
+};
 </script>

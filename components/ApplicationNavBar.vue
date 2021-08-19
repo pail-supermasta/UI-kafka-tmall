@@ -1,5 +1,9 @@
 <template>
-    $END$
+    <div>
+        <router-link to="/">
+            Главная страница
+        </router-link>
+    </div>
 </template>
 
 <script>
